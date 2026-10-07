@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Week3_Library
+﻿namespace Week3_Library
 {
-class Book
+    class Book
     {
         string Title;
         string Author;
         string ISBN;
 
-        // Example of a constructor that allows us to 'construct' a new 
-        // Book object
         public Book(string bookTitle, string bookAuthor, string bookISBN)
         {
             this.Title = bookTitle;
@@ -19,7 +13,7 @@ class Book
             this.ISBN = bookISBN;
         }
 
-        void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book title: {Title}");
             Console.WriteLine($"Book Author: {Author}");
