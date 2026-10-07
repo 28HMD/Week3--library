@@ -11,5 +11,13 @@ class Program
         );
 
         book.DisplayInfo();
+
+        Book book1 = new Book(
+            "Ultimate C#",
+            "Microsoft",
+            "2233445"
+        );
+
+        book1.DisplayInfo();
     }
 }
